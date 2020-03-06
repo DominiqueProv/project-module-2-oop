@@ -1,0 +1,32 @@
+.gameover {
+    background-image: url(/images/gameover.gif);
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    width: 300px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.resetBtn {
+    position: absolute;
+    left: 255px;
+    top: 510px;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 25px;
+    color: white;
+    font-size: 15;
+    z-index: 300;
+    border: none;
+}
+
+.resetBtn:hover {
+    background-color: red;
+    border: none;
+}
+
+.resetBtn:focus {
+    outline: none;
+}
